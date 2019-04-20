@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.hope</groupId>
+    <artifactId>hope-cloud</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <!--统一管理模板-->
+    <modules>
+        <module>cloud-eureka</module>
+        <module>cloud-config</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <name>hope-plus</name>
+    <description>
+        低调小熊猫开源作品hope-plus-cloud 我的博客:https://aodeng.cc 微信公众号:低调小熊猫
+        父模板
+    </description>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.4.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+        <springboot-modules-version>0.0.1-SNAPSHOT</springboot-modules-version>
+    </properties>
+
+    <!--统一模板版本管理-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.hope</groupId>
+                <artifactId>cloud-eureka</artifactId>
+                <version>${springboot.modules.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.hope</groupId>
+                <artifactId>cloud-config</artifactId>
+                <version>${springboot.modules.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>
