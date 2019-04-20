@@ -2,7 +2,7 @@
 
 # 简介：
 
-> Hope-cloud 可能是最好的 Java 微服务项目。架构基于 Spring Boot、Spring Cloud一系列框架构建而成。:tada:
+> Hope-cloud可能是最好的 Java 微服务项目。架构基于 Spring Boot、Spring Cloud一系列框架构建而成。:tada:
 
 # 技术栈
 
