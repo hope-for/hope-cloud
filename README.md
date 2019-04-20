@@ -1,8 +1,8 @@
-# <a href="#">Hope-plus-cloud</a>
+# <a href="#">Hope-cloud</a>
 
 # 简介：
 
-> Hope-cloud是一款基于 Spring Boot、Spring Cloud一系列框架构建的微服务项目（可能是Java最好的微服务项目）:tada:
+> Hope-cloud 可能是最好的 Java 微服务系统。项目架构基于 Spring Boot、Spring Cloud一系列框架构建而成。:tada:
 
 # 技术栈
 
