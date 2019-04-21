@@ -1,5 +1,11 @@
 spring:
   application:
     name: cloud-config
+  security:
+    basic:
+      enabled: true
+    user:
+      name: cloud-eureka
+      password: ${REGISTRY_SERVER_PASSWORD:cloud-eureka}
   profiles:
     active: dev
