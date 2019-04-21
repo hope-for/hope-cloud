@@ -12,7 +12,7 @@ Spring Cloud Config、Spring Cloud Netflix（Eureka、Hystrix、Zuul、Archaius�
 
 | 服务名称     | 亮点                      |    
 | ---------- | ----------------------- |
-| cloud-eureka:wrench:注册中心 | 单节点security安全验证、多节点高可用集群 |
+| cloud-eureka:wrench:注册中心 | 安全的外套Security、实现高可用集群部署 |
 | config-repo:pencil2:配置管理 | 集中管理各环境的配置文件 | 
 | cloud-config:page_facing_up:外部配置 | 解决分布式系统的配置管理方案、使用git存放配置文件 |      
 
@@ -20,7 +20,7 @@ Spring Cloud Config、Spring Cloud Netflix（Eureka、Hystrix、Zuul、Archaius�
 
 ## 注册中心
 >* 单节点注册中心，使用dev环境。账号：cloud-eureka 密码：cloud-eureka
-* 集群多节点注册中心，使用prod61,prod62,prod63环境。账号：cloud-eureka 密码：cloud-eureka
+>* 集群部署注册中心，使用prod61,prod62,prod63环境。账号：cloud-eureka 密码：cloud-eureka
 
 ![](https://i.loli.net/2019/04/19/5cb953045c78e.png)
 

@@ -1,10 +1,10 @@
-# <a href="#">HOPE-PLUS-CLOUD</a>
+# <a href="#">HOPE-CLOUD</a>
 
 ## clode-eureka使用说明：
 
 单节点注册中心，使用dev环境。账号：cloud-eureka 密码：cloud-eureka
 
-集群多节点注册中心，使用prod61,prod62,prod63环境。账号：cloud-eureka 密码：cloud-eureka
+集群部署注册中心，使用prod61,prod62,prod63环境。账号：cloud-eureka 密码：cloud-eureka
 
 hosts添加eurekaA eurekaB eurekaC三个节点，打包运行：
 
