@@ -4,10 +4,26 @@
 
 提供配置文件的存储、以接口的形式将配置文件的内容提供出去
 
+仓库中的配置文件会被转换成web接口，访问可以参照以下的规则：
+
+/{application}/{profile}[/{label}]
+
+/{application}-{profile}.yml
+
+/{label}/{application}-{profile}.yml
+
+/{application}-{profile}.properties
+
+/{label}/{application}-{profile}.properties
+
+以hope-config-dev.properties为例子，它的application是hope-config，profile是dev。client会根据填写的参数来选择读取对应的配置。
+
+:访问 http://服务地址:8001/hope-config/dev  就会返回这个配置文件的json数据
+
 ## 关于：
 
 * [author：低调小熊猫](https://aodeng.cc)
-* [项目开源地址：https://github.com/java-aodeng/hope-plus](https://github.com/java-aodeng/hope-plus)
+* [项目开源地址：https://github.com/java-aodeng/hope-cloud](https://github.com/java-aodeng/hope-cloud)
 
 ## 传送门：
 

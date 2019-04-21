@@ -16,7 +16,7 @@ java -jar cloud-eureka.jar --spring.profiles.active=prod63
 ## 关于：
 
 * [author：低调小熊猫](https://aodeng.cc)
-* [项目开源地址：https://github.com/java-aodeng/hope-plus](https://github.com/java-aodeng/hope-plus)
+* [项目开源地址：https://github.com/java-aodeng/hope-cloud](https://github.com/java-aodeng/hope-cloud)
 
 ## 传送门：
 
