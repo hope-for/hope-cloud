@@ -6,47 +6,43 @@
     <groupId>com.hope</groupId>
     <artifactId>hope-cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <!--统一管理模板-->
-    <modules>
-        <module>cloud-eureka</module>
-        <module>cloud-config</module>
-    </modules>
     <packaging>pom</packaging>
+    <name>${project.artifactId}</name>
 
-    <name>hope-plus</name>
+    <!-- 虽然Hope-cloud使用了宽松的GPL协议，但开发不易，希望您可以保留一下版权声明。笔芯~ -->
     <description>
-        低调小熊猫开源作品hope-plus-cloud 我的博客:https://aodeng.cc 微信公众号:低调小熊猫
-        父模板
+        Hope-cloud 一个基于 Spring Boot、Spring Cloud一系列框架构建而成的微服务项目。以实用为初衷
     </description>
+
+    <developers>
+        <developer>
+            <id>hope</id>
+            <name>低调小熊猫-我们不改变世界-我们跟着世界改变</name>
+            <email>java@aodeng.cc</email>
+            <url>https://aodeng.cc</url>
+            <organizationUrl>微信公众号:低调小熊猫</organizationUrl>
+        </developer>
+    </developers>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.4.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
+
+    <!--子模块-->
+    <modules>
+        <module>cloud-eureka</module>
+        <module>cloud-config</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <springboot-modules-version>0.0.1-SNAPSHOT</springboot-modules-version>
+        <spring.cloud.version>Dalston.SR4</spring.cloud.version>
+        <spring-boot-admin.version>1.5.4</spring-boot-admin.version>
     </properties>
-
-    <!--统一模板版本管理-->
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.hope</groupId>
-                <artifactId>cloud-eureka</artifactId>
-                <version>${springboot.modules.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.hope</groupId>
-                <artifactId>cloud-config</artifactId>
-                <version>${springboot.modules.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <dependencies>
         <dependency>
@@ -59,5 +55,61 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <!--统一模板版本管理-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-server</artifactId>
+                <version>${spring-boot-admin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-server-ui</artifactId>
+                <version>${spring-boot-admin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-server-ui-hystrix</artifactId>
+                <version>${spring-boot-admin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-server-ui-turbine</artifactId>
+                <version>${spring-boot-admin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-server-ui-login</artifactId>
+                <version>${spring-boot-admin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring.cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>repackage</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
 </project>

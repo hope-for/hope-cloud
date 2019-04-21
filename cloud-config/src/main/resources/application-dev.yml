@@ -1,0 +1,15 @@
+server:
+  port: 8001
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/java-aodeng/hope-plus/     # 配置git仓库的地址
+#          search-paths: config-repo                             # git仓库地址下的相对地址，可以配置多个，用,分割。
+          #username:                                              # git仓库的账号
+          #password:                                              # git仓库的密码
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@${eureka.instance.hostname}:${server.port}/eureka/

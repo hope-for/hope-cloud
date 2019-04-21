@@ -1,6 +1,6 @@
 spring:
   application:
-    name: cloud-eureka #hope-plus-cloud 服务注册中心
+    name: cloud-eureka
   security:
     basic:
       enabled: true
