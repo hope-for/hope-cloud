@@ -6,7 +6,7 @@
     <!--继承父模板-->
     <parent>
         <groupId>com.hope</groupId>
-        <artifactId>hope-plus</artifactId>
+        <artifactId>hope-cloud</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
