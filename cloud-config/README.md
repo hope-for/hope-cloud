@@ -1,4 +1,4 @@
-# <a href="#">HOPE-PLUS-CLOUD</a>
+# <a href="https://github.com/java-aodeng/hope-cloud">HOPE-CLOUD</a>
 
 ## clode-config使用说明：
 
