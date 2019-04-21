@@ -31,8 +31,6 @@ Spring Cloud Config、Spring Cloud Netflix（Eureka、Hystrix、Zuul、Archaius�
 
 * 作者留言：如果你觉得不错，来个star。
 
-* 作者烦恼：想去一家有潜力的公司发展，求带走。
-
 
 
 
