@@ -4,8 +4,15 @@
 
 单节点注册中心，使用dev环境。账号：cloud-eureka 密码：cloud-eureka
 
-多节点高可用集群注册中心，使用prod61,prod62,prod63环境。注：需要去掉maven里面的security依赖，没有密码
+集群多节点注册中心，使用prod61,prod62,prod63环境。账号：cloud-eureka 密码：cloud-eureka
 
+hosts添加eurekaA eurekaB eurekaC三个节点，打包运行：
+
+java -jar cloud-eureka.jar --spring.profiles.active=prod61
+
+java -jar cloud-eureka.jar --spring.profiles.active=prod62
+
+java -jar cloud-eureka.jar --spring.profiles.active=prod63
 ## 关于：
 
 * [author：低调小熊猫](https://aodeng.cc)

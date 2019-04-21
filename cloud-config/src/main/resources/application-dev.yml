@@ -11,5 +11,5 @@ server:
           #password:                                              # git仓库的密码
 eureka:
   client:
-    serviceUrl:
-      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@${eureka.instance.hostname}:${server.port}/eureka/
+    service-url:
+      defaultZone: http://cloud-eureka:cloud-eureka@cloud-eureka:8761/eureka/
