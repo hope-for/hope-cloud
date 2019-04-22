@@ -1,4 +1,4 @@
-${AnsiColor.YELLOW}Hello,Welcome to hope-plus-cloud-eureka...${AnsiColor.RED}SpringBoot的版本号:${AnsiColor.RED}${AnsiColor.MAGENTA} ${spring-boot.formatted-version} ${AnsiColor.RED}我的博客:https://aodeng.cc 微信公众号：${AnsiColor.GREEN}低调小熊猫${AnsiColor.MAGENTA}
+${AnsiColor.YELLOW}Hello,Welcome to hope-cloud-config...${AnsiColor.RED}SpringBoot的版本号:${AnsiColor.RED}${AnsiColor.MAGENTA} ${spring-boot.formatted-version} ${AnsiColor.RED}我的博客:https://aodeng.cc 微信公众号：${AnsiColor.GREEN}低调小熊猫${AnsiColor.MAGENTA}
 
                                                                                                                                        //  ) )             ${AnsiColor.YELLOW}
                 / __      ___      ___      ___              ___     //  ___               ___   /          ___      ___       __   __//__  ( )  ___       ${AnsiColor.BRIGHT_GREEN}

@@ -35,13 +35,14 @@
     <modules>
         <module>cloud-eureka</module>
         <module>cloud-config</module>
+        <module>cloud-monitor</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <spring.cloud.version>Greenwich.SR1</spring.cloud.version>
-        <spring-boot-admin.version>2.0.1</spring-boot-admin.version>
+        <spring-boot-admin.version>2.0.3</spring-boot-admin.version>
     </properties>
 
     <dependencies>
@@ -59,6 +60,11 @@
     <!--统一模板版本管理-->
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-server</artifactId>
+                <version>${spring-boot-admin.version}</version>
+            </dependency>
             <dependency>
                 <groupId>de.codecentric</groupId>
                 <artifactId>spring-boot-admin-server</artifactId>
