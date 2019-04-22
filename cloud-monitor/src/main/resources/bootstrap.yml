@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: cloud-monitor
+  security:
+    basic:
+      enabled: true
+    user:
+      name: cloud-eureka
+      password: ${REGISTRY_SERVER_PASSWORD:cloud-eureka}
+  profiles:
+    active: dev

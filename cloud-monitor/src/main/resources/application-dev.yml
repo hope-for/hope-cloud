@@ -1,0 +1,14 @@
+server:
+  port: 8002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://cloud-eureka:cloud-eureka@cloud-eureka:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS

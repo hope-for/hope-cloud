@@ -1,0 +1,13 @@
+${AnsiColor.YELLOW}Hello,Welcome to hope-cloud-monitor...${AnsiColor.RED}SpringBoot的版本号:${AnsiColor.RED}${AnsiColor.MAGENTA} ${spring-boot.formatted-version} ${AnsiColor.RED}我的博客:https://aodeng.cc 微信公众号：${AnsiColor.GREEN}低调小熊猫${AnsiColor.MAGENTA}
+
+
+                                                   _                                 _                 _                              _ _                  ${AnsiColor.YELLOW}
+                                                  | |                               | |               | |                            (_) |                 ${AnsiColor.BRIGHT_GREEN}
+                                                  | |__   ___  _ __   ___ ______ ___| | ___  _   _  __| |______ _ __ ___   ___  _ __  _| |_ ___  _ __      ${AnsiColor.BRIGHT_CYAN}
+                                                  | '_ \ / _ \| '_ \ / _ \______/ __| |/ _ \| | | |/ _` |______| '_ ` _ \ / _ \| '_ \| | __/ _ \| '__|     ${AnsiColor.BLUE}
+                                                  | | | | (_) | |_) |  __/     | (__| | (_) | |_| | (_| |      | | | | | | (_) | | | | | || (_) | |        ${AnsiColor.MAGENTA}
+                                                  |_| |_|\___/| .__/ \___|      \___|_|\___/ \__,_|\__,_|      |_| |_| |_|\___/|_| |_|_|\__\___/|_|
+                                                              | |
+                                                              |_|
+${AnsiColor.MAGENTA}监控 启动 ...
+${AnsiColor.DEFAULT}
