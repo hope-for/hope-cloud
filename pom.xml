@@ -16,11 +16,11 @@
 
     <developers>
         <developer>
-            <id>hope</id>
-            <name>低调小熊猫-我们不改变世界-我们跟着世界改变</name>
+            <id>aodeng</id>
+            <name>低调小熊猫</name>
             <email>java@aodeng.cc</email>
             <url>https://aodeng.cc</url>
-            <organizationUrl>微信公众号:低调小熊猫</organizationUrl>
+            <organizationUrl>https://github.com/java-aodeng</organizationUrl>
         </developer>
     </developers>
 
@@ -42,7 +42,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <spring.cloud.version>Greenwich.SR1</spring.cloud.version>
-        <spring-boot-admin.version>2.0.3</spring-boot-admin.version>
+        <spring-boot-admin.starter.version>2.0.3</spring-boot-admin.starter.version>
     </properties>
 
     <dependencies>
@@ -57,39 +57,8 @@
         </dependency>
     </dependencies>
 
-    <!--统一模板版本管理-->
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>de.codecentric</groupId>
-                <artifactId>spring-boot-admin-starter-server</artifactId>
-                <version>${spring-boot-admin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>de.codecentric</groupId>
-                <artifactId>spring-boot-admin-server</artifactId>
-                <version>${spring-boot-admin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>de.codecentric</groupId>
-                <artifactId>spring-boot-admin-server-ui</artifactId>
-                <version>${spring-boot-admin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>de.codecentric</groupId>
-                <artifactId>spring-boot-admin-server-ui-hystrix</artifactId>
-                <version>${spring-boot-admin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>de.codecentric</groupId>
-                <artifactId>spring-boot-admin-server-ui-turbine</artifactId>
-                <version>${spring-boot-admin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>de.codecentric</groupId>
-                <artifactId>spring-boot-admin-server-ui-login</artifactId>
-                <version>${spring-boot-admin.version}</version>
-            </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
