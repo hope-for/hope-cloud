@@ -25,7 +25,8 @@ Spring Cloud Config、Spring Cloud Netflix（Eureka、Hystrix、Zuul、Archaius�
 | cloud-eureka:wrench:注册中心 | 安全的外套Security、实现高可用集群部署 |
 | config-repo:pencil2:配置管理 | 集中管理各环境的配置文件 | 
 | cloud-config:page_facing_up:外部配置 | 解决分布式系统的配置管理方案、使用git存放配置文件 |
-| cloud-monitor:chart_with_upwards_trend:健康监控 | 详细的Health信息、内存信息、JVM信息、垃圾回收信息、各种配置信息 |      
+| cloud-monitor:chart_with_upwards_trend:健康监控 | 详细的Health信息、内存信息、JVM信息、垃圾回收信息、各种配置信息 | 
+| cloud-gateway:robot:网关 | 全新的网关 Spring Cloud Gateway |     
 
 # 项目预览
 

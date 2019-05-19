@@ -9,11 +9,12 @@ eureka:
     lease-expiration-duration-in-seconds: 10
     #eureka客户端需要向eureka服务器发送心跳的频率 默认30s （开发环境)
     lease-renewal-interval-in-seconds: 1
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    health:
-      show-details: ALWAYS
+spring:
+  cloud:
+    gateway:
+     discovery:
+        locator:
+         enabled: true
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
