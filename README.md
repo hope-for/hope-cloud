@@ -12,7 +12,7 @@
 
 > 开发作者：[低调小熊猫](https://aodeng.cc) -我们不改变世界，我们跟着世界改变。
 
-> 这是我的第二个开源作品hope-cloud，欢迎star。第一个开源作品hope-boot 地址：https://github.com/hope-for/hope-boot
+> 这是我的第二个开源作品，欢迎star。第一个开源作品地址：https://github.com/hope-for/hope-boot
 
 # 技术栈
 
