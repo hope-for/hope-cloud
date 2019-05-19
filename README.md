@@ -1,8 +1,20 @@
-# <a href="https://github.com/java-aodeng/hope-cloud">HOPE-CLOUD</a>
+<h1 align="center"><a href="https://github.com/hope-for" target="_blank">Hope-Cloud</a></h1>
+
+<p align="center">
+<a href="https://aodeng.cc"><img alt="Author" src="https://img.shields.io/badge/author-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB-blue.svg"/></a>
+<a href="https://github.com/hope-for/hope-cloud/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/github/license/java-aodeng/hope.svg?style=flat-square"/></a>
+<a href="https://jq.qq.com/?_wv=1027&k=574chhz"><img alt="QQ群" src="https://img.shields.io/badge/chat-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%ABQQ%E7%BE%A4-yellow.svg"/></a>
+<a href="https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ"><img alt="Telegram" src="https://img.shields.io/badge/telegram-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB--%E5%AE%98%E6%96%B9%E9%83%A8%E8%90%BD-orange.svg"/></a>
+<a href="https://github.com/hope-for/hope-cloud"><img alt="star" src="https://img.shields.io/github/stars/hope-for/hope-boot.svg?label=Stars&style=social"/></a>
+</p>
 
 # 简介：
 
-> Hope-cloud可能是最好的 Java 微服务项目。基于 Spring Boot(2.1.4.RELEASE)、Spring Cloud(Greenwich.SR1)一系列框架构建而成。:tada: 开源地址：https://github.com/java-aodeng/hope-cloud
+> :whale:Hope-Cloud可能是最好的 Java 微服务项目。基于 Spring Boot、Spring Cloud。一系列框架构建而成。 开源地址：https://github.com/hope-for/hope-cloud
+
+> 开发作者：[低调小熊猫](https://aodeng.cc) -我们不改变世界，我们跟着世界改变。
+
+> 这是我开源的第二个开源作品，如果你觉得不错，来个star。其他开源作品地址：https://github.com/hope-for/hope-boot
 
 # 技术栈
 
@@ -35,11 +47,17 @@ Spring Cloud Config、Spring Cloud Netflix（Eureka、Hystrix、Zuul、Archaius�
 ### 监控-登录
 ![](https://i.loli.net/2019/05/19/5ce0de4b3fe5740724.png)
 
-# Author 
+## 我的链接：
 
-* 作者博客：[低调小熊猫](https://aodeng.cc) -我们不改变世界，我们跟着世界改变。
-
-* 作者留言：如果你觉得不错，来个star。
+- [我的个人博客](https://aodeng.cc)
+- [我的微信公众号(低调小熊猫)](https://mp.weixin.qq.com/s/l5t8WSCG_-shiD4BPpLYiw) 
+- [hope-cloud使用GPL-v3.0协议开源](https://github.com/hope-for/hope-cloud/blob/master/LICENSE)
+- [低调小熊猫QQ群](https://jq.qq.com/?_wv=1027&k=5y4H7Nz) 
+- [低调小熊猫Telegram群](https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ)
+- [我的Gitee链接](https://gitee.com/java-aodeng)
+- [我的Github链接](https://github.com/java-aodeng)
+- [我的开源组织(欢迎志同道合的朋友加入)](https://github.com/hope-for)
+- 联系我的邮箱：java@aodeng.cc 申请加入hope-for组织也是发送到该邮箱哦，记得带上你的GitHub账号
 
 
 
