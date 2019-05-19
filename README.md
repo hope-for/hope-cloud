@@ -3,9 +3,7 @@
 <p align="center">
 <a href="https://aodeng.cc"><img alt="Author" src="https://img.shields.io/badge/author-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB-blue.svg"/></a>
 <a href="https://github.com/hope-for/hope-cloud/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/github/license/java-aodeng/hope.svg?style=flat-square"/></a>
-<a href="https://jq.qq.com/?_wv=1027&k=574chhz"><img alt="QQ群" src="https://img.shields.io/badge/chat-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%ABQQ%E7%BE%A4-yellow.svg"/></a>
-<a href="https://t.me/joinchat/LSsyBxVKLGEkF5MtIhg6TQ"><img alt="Telegram" src="https://img.shields.io/badge/telegram-%E4%BD%8E%E8%B0%83%E5%B0%8F%E7%86%8A%E7%8C%AB--%E5%AE%98%E6%96%B9%E9%83%A8%E8%90%BD-orange.svg"/></a>
-<a href="https://github.com/hope-for/hope-cloud"><img alt="star" src="https://img.shields.io/github/stars/hope-for/hope-boot.svg?label=Stars&style=social"/></a>
+<a href="https://github.com/hope-for/hope-cloud"><img alt="star" src="https://img.shields.io/github/stars/hope-for/hope-cloud.svg?label=Stars&style=social"/></a>
 </p>
 
 # 简介：
@@ -14,7 +12,7 @@
 
 > 开发作者：[低调小熊猫](https://aodeng.cc) -我们不改变世界，我们跟着世界改变。
 
-> 这是我开源的第二个开源作品，如果你觉得不错，来个star。其他开源作品地址：https://github.com/hope-for/hope-boot
+> 这是我开源的第二个开源作品，欢迎star。第一个开源作品地址：https://github.com/hope-for/hope-boot
 
 # 技术栈
 
