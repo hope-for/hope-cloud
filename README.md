@@ -20,12 +20,20 @@ Spring Cloud Config、Spring Cloud Netflix（Eureka、Hystrix、Zuul、Archaius�
 # 项目预览
 
 ## 注册中心
->* 单节点注册中心，使用dev环境。账号：cloud-eureka 密码：cloud-eureka
+>* 单节点注册中心，使用dev环境。访问地址：http://localhost:8761/login 账号：cloud-eureka 密码：cloud-eureka
 >* 集群部署注册中心，使用prod61,prod62,prod63环境。账号：cloud-eureka 密码：cloud-eureka
 
+### 注册中心-登录
 ![](https://i.loli.net/2019/04/19/5cb953045c78e.png)
 
+### 注册中心-控制面板
 ![](https://i.loli.net/2019/04/19/5cb95305c80ac.png)
+
+## 监控
+>* 访问地址：http://localhost:8002/login 账号：cloud-admin 密码：cloud-admin
+
+### 监控-登录
+![](https://i.loli.net/2019/05/19/5ce0de4b3fe5740724.png)
 
 # Author 
 
