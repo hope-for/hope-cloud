@@ -36,6 +36,7 @@
         <module>cloud-eureka</module>
         <module>cloud-config</module>
         <module>cloud-monitor</module>
+        <module>cloud-gateway</module>
     </modules>
 
     <properties>

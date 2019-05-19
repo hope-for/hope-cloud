@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: cloud-gateway
+  security:
+    basic:
+      enabled: true
+    user:
+      name: cloud-gateway
+      password: ${REGISTRY_SERVER_PASSWORD:cloud-gateway}
+  profiles:
+    active: dev
