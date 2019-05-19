@@ -43,7 +43,16 @@ Spring Cloud Config、Spring Cloud Netflix（Eureka、Hystrix、Zuul、Archaius�
 >* 访问地址：http://localhost:8002/login 账号：cloud-admin 密码：cloud-admin
 
 ### 监控-登录
-![](https://i.loli.net/2019/05/19/5ce0de4b3fe5740724.png)
+![](https://i.loli.net/2019/05/19/5ce0e56c045a147370.png)
+
+### 监控-控制面板
+![](https://i.loli.net/2019/05/19/5ce0e5de4027791139.png)
+
+### 监控-应用中心
+![](https://i.loli.net/2019/05/19/5ce0e5f85fb5011821.png)
+
+### 监控-应用注册历史
+![](https://i.loli.net/2019/05/19/5ce0e6133936027535.png)
 
 ## 我的链接：
 
