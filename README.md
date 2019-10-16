@@ -69,7 +69,7 @@ Spring Cloud Config、Spring Cloud Netflix（Eureka、Hystrix、Zuul、Archaius�
 - [熊猫哥星球基地](https://t.zsxq.com/rn2jUbY)
 
 <p align="center">
-![微信图片_20191016132553](http://image.ilovey.live/image/ea62406ccc287ab3277672d1d73ea98a.png)
+  <a href="https://t.zsxq.com/rn2jUbY"><img alt="Author" src="http://image.ilovey.live/image/ea62406ccc287ab3277672d1d73ea98a.png"/></a>
 </p>
 
 
