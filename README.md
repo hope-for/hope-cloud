@@ -10,7 +10,7 @@
 
 > :whale:Hope-Cloud可能是最好的 Java 微服务项目。基于 Spring Boot、Spring Cloud。一系列框架构建而成。 开源地址：https://github.com/hope-for/hope-cloud
 
-> 开发作者：[低调小熊猫](https://aodeng.cc) -我们不改变世界，我们跟着世界改变。
+> 开发作者：[低调小熊猫](http://ilovey.live) -我们不改变世界，我们跟着世界改变。
 
 > 这是我的第二个开源作品，欢迎star。第三个开源作品地址：https://github.com/java-aodeng/hope
 
